@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Faiq's Website</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!--Mainbody-->
+    <div class="container" id="navbar">
+      <nav>
+        <div class="logo">FaiqXZ<b>.</b></div>
+        <ul class="navitems">
+          <li><a href="#home" id="home-page">Home</a></li>
+          <li><a href="#about" id="about-page">About</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#footer">Footer</a></li>
+        </ul>
+        <div class="links">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </nav>
+
+      <div class="wrapper">
+        <div class="cols cols0">
+          <span class="topline">おはようございます</span>
+          <h1>I'm <span class="multitext"></span></h1>
+          <p>
+            Perkenalkan saya Al Ikhsan Faiq (09031182227018), Mahasiswa Sistem
+            Informasi Universitas Sriwijaya... Salam Kenal!!!
+          </p>
+          <div class="btn">
+            <button>
+              <a href="https://github.com/faiqxz">My Github Page</a>
+            </button>
+          </div>
+        </div>
+        <div class="cols cols1">
+          <div class="imgbox">
+            <img src="image/cloud1.png" id="cloud" />
+            <img src="image/futsal.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Hero-->
+    <div class="hero" id="home">
+      <div class="hero__container">
+        <h1 class="hero__heading">Welcome To <span>My Website</span></h1>
+        <p class="hero__description">by Faiq</p>
+        <button class="main__btn">
+          <a href="#navbar">Back</a>
+        </button>
+      </div>
+    </div>
+    <!--About-->
+    <div class="main" id="about">
+      <div class="main__container">
+        <div class="main__img--container">
+          <div class="main__img--card"><i class="fas fa-layer-group"></i></div>
+        </div>
+        <div class="main__content">
+          <h1>What Website is this?</h1>
+          <h2>This Website is for my GDSC Assigntment task</h2>
+          <p>You can go up again by pressing the button below!</p>
+          <button class="main__btn"><a href="#navbar">Back</a></button>
+        </div>
+      </div>
+    </div>
+    <!--Gallery-->
+    <div class="gallery" id="gallery">
+      <div class="gallery__container">
+        <div class="gallery__img--container">
+          <div class="gallery__img--card">
+            <div class="slider">
+              <img src="./image/web1.png" class="slide" />
+              <img src="./image/web2.png" class="slide" />
+              <img src="./Image/web3.png" class="slide" />
+              <img src="./image/web2.png" class="slide" />
+              <img src="./image/web1.png" class="slide" />
+            </div>
+            <i class="fas fa-layer-group"></i>
+          </div>
+        </div>
+        <div class="gallery__content">
+          <h1>Gallery Slide</h1>
+          <h2>Websites</h2>
+          <p>Some of Websites that i made</p>
+          <button class="gallery__btn"><a href="#navbar">Back</a></button>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer__container" id="footer">
+      <section class="social__media">
+        <div class="social__media--wrap">
+          <div class="logo">FaiqXZ<b>.</b></div>
+          <p class="website__rights">©Copyright.FaiqXZ All rights reserved</p>
+          <div class="social__icons">
+            <a href="#" class="social__icon--link"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/faiq.xz/"
+              target="_blank"
+              class="social__icon--link"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="#" class="social__icon--link"
+              ><i class="fab fa-youtube"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/al-ikhsan-faiq-494a19263/"
+              target="_blank"
+              class="social__icon--link"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="#" class="social__icon--link"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typingEffect = new Typed(".multitext", {
+        strings: ["Faiq", "Paeq"],
+        loop: true,
+        typeSpeed: 100,
+        backSpeed: 80,
+        backDelay: 1500,
+      });
+    </script>
+    <script src="javascript.js"></script>
+  </body>
+</html>
